@@ -30,7 +30,7 @@
 
 }
 #side {
-	width:15%;
+	width:12%;
 	vertical-align:top;
 	border-right:1px solid;
 	padding-bottom: 5px;
@@ -59,10 +59,16 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 }
+#headerimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: aqua;
+}
 .boxed {
 	border: 1px solid white;
 	width: 500px;
-	background-color: blue;
+	background-color: aqua;
 }
 a:link {
 	color: black;
