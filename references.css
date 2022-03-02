@@ -11,22 +11,23 @@
 	font-size: 60px;
 	color: white;
 	text-align:center;
-	background-color: blue;
+	background-color: #00adfe;
 	border: white;
+	z-index: 1;
 }
 #content{
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #side {
-	width:6%;
+	width:8%;
 	vertical-align:top;
 	border-right:2px solid;
 	padding-bottom: 3px;
 }
 #sidebar{
 	border: 6px solid #ffdab1;
-	margin:2px;
-	width: 8%;
+	margin:7px;
+	width: 6%;
 	height: 30%;
 	padding:10px;
 	position:fixed;
