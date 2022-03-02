@@ -17,7 +17,8 @@
 	text-align:center;
 	background-color: blue;
 	border: white;
-	
+	margin-left: auto;
+	margin-right: auto;
 
 
 
