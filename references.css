@@ -4,7 +4,7 @@
 	border-style:none;
 }
 #header{
-	width:75%;	
+	width:85%;	
 }
 #header h1{
 	font-family: Arial, Helvetica, sans-serif;
@@ -24,10 +24,10 @@
 	padding-bottom: 5px;
 }
 #sidebar{
-	border:1px solid,#ffdab1;
-	margin:25px;
-	width: 15%;
-	height: 25%;
+	border: 6px solid #ffdab1;
+	margin:2px;
+	width: 8%;
+	height: 30%;
 	padding:10px;
 	position:fixed;
 	top:0;
@@ -38,11 +38,6 @@
 
 body{
 	Background-color:rgb(251, 200, 121);
-}
-#infographic {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 #headerimg{
 	display: block;
@@ -63,6 +58,10 @@ a:link {
 	background-color: white;
 	line-height: 2;
 	border: 1px solid black;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 a:visited{
 	color:black;
@@ -72,16 +71,4 @@ a:visited{
 	background-color: white;
 	border: 1px solid black;
 }
-#introduction{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 40px;
-}
-#sbtitle{
-	font-size: 22px;
-	line-height: 1.5;
-}
-#googleform{
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-}
+
