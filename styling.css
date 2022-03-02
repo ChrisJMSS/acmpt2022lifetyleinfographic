@@ -30,7 +30,7 @@
 
 }
 #side {
-	width:12%;
+	width:11%;
 	vertical-align:top;
 	border-right:1px solid;
 	padding-bottom: 5px;
@@ -40,8 +40,8 @@
 #sidebar{
 	border:1px solid;
 	margin:8px;
-	width: 10%;
-	height: 100%;
+	width: 9%;
+	height: 25%;
 	padding:10px;
 	position:fixed;
 	top:0;
