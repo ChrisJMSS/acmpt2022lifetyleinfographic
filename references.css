@@ -18,10 +18,10 @@
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #side {
-	width:9%;
+	width:6%;
 	vertical-align:top;
 	border-right:2px solid;
-	padding-bottom: 5px;
+	padding-bottom: 3px;
 }
 #sidebar{
 	border: 6px solid #ffdab1;
