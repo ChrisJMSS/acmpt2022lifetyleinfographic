@@ -45,6 +45,8 @@
 	position:fixed;
 	top:0;
 	left:0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
 }
 
 body{
@@ -68,7 +70,8 @@ a:link {
 	padding: 5px 10px; 
 	text-decoration: none;
 	background-color: white;
-	line-height: 1.8;
+	line-height: 2;
+	border: 1px solid black;
 	
 }
 a:visited{
@@ -77,5 +80,6 @@ a:visited{
 	padding: 5px 10px;
 	text-decoration: none;
 	background-color: white;
+	border: 1px solid black;
 	
 }
