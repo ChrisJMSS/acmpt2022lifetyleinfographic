@@ -7,26 +7,32 @@
     </head>
     
     <body>
+        <button onclick="topFunction()" id="b2t" title="Go to top">Top</button>
+	<script>
+		var mybutton = document.getElementById("b2t");
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+	</script>
         <table id = "container"> 
             <tr>
-                <td rowspan="2" id ="side">
-                    <div id = "sidebar">
-                        <sbt id = "sbtitle">Navigation:</sbt>   
-                        <br><a href="index.html">Return</a>
-                        <!--<br><a href="References">References</a><br>-->
-                        <br><div class="dropdown">
-                            <span class="dropbtn">References</span>
-                            <div class="dropdown-content">
-                                <a href="iref.html">Infographic references</a>
-                                <a href="oref.html">Other references</a>
-                            </div>
-                        </div>
-                    </div>
-                </td>
-                
-                <td id = "header" class = "boxed">
-                <!--<h1>Lifestyle Choices</h1> (text by itself)-->
-                <img src="title.png" id="headerimg" alt="header" width="105%">
+                <img src="title.png" id="titleimg" alt="header" width="101%">
+                <div class="topnav">
+                    <a href="index.html">Home</a>
+                    <a href="#introduction">Introduction</a>
+                    <a href="#videos">Videos</a>
+                    <a href="#infographic">Infographic</a>
+                    <a href ="#conclusion">Conclusion</a>
+                    <a class="active" href="iref.html">References</a>
                 </td>
             </tr>
             <span>
@@ -63,7 +69,7 @@
                 </span>
                     <span id = "oref">
                         <link rel="stylesheet" href="styling.css">
-                        <a href ="https://www.youtube.com/watch?v=Y8HIFRPU6pM"></a>
+                        <iframe width="420" height="315" id="ytvid" href ="https://www.youtube.com/embed/Y8HIFRPU6pM" frameborder="0"></iframe>
                         <a href ="https://www.youtube.com/watch?v=_HEnohs6yYw"></a>
                         <a href ="https://www.youtube.com/watch?v=JY4wFitoAqk"></a>
                     </span>

@@ -46,6 +46,11 @@ body{
 	margin-right: auto;
 	background-color: rgb(77, 234, 255);
 }
+#titleimg{
+	display:block;
+	margin-left: -7px;
+	margin-top: -7px;
+}
 /*.boxed {
 	border: 1px solid white;
 	width: 500px;

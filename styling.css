@@ -201,4 +201,6 @@ a:visited{
 	background-color: #0099ff;
 	color: white;
   }
-  
+  #ytvid{
+	  z-index: 2;
+  }
