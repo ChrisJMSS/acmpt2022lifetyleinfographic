@@ -17,6 +17,14 @@ html{
 	padding: 25px; 
 	width:fit-content;
 	display: block;
+  }
+.smoothboxh {
+	border-radius: 25px;
+	border: 7px solid #079be6;
+	background-color: white;
+	padding: 25px; 
+	width:fit-content;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
   }
